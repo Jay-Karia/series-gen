@@ -1,0 +1,30 @@
+{
+  "name": "series-gen",
+  "version": "1.0.0",
+  "description": "➗ Generates a mathematical series",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --outFile dist/index.js",
+    "dev": "node --env-file=.env --watch -r ts-node/register index.ts",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jay-Karia/series-gen.git"
+  },
+  "keywords": [
+    "maths",
+    "series"
+  ],
+  "author": "Jay-Karia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jay-Karia/series-gen/issues"
+  },
+  "homepage": "https://github.com/Jay-Karia/series-gen#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
