@@ -4,8 +4,8 @@
   "description": "➗ Generates a mathematical series",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc --outFile dist/index.js",
-    "dev": "node --env-file=.env --watch -r ts-node/register index.ts",
+    "build": "tsc",
+    "dev": "node --watch -r ts-node/register src/index.ts",
     "format": "prettier --write ."
   },
   "repository": {
