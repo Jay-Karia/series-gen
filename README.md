@@ -10,9 +10,11 @@ Run on StackBlitz: [https://stackblitz.com/~/github.com/Jay-Karia/series-gen](ht
 
 ## Output
 
-The output for first 50 elements of the series
+First 50 elements of the series
 
 ![Output](./public/first50.png)
+
+View more results [here](./public/)
 
 ### Development
 
