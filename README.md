@@ -6,6 +6,8 @@ Generates a mathematical series
 
 ![Question](./question.jpeg)
 
+## Run Online
+
 Run on StackBlitz: [https://stackblitz.com/~/github.com/Jay-Karia/series-gen](https://stackblitz.com/~/github.com/Jay-Karia/series-gen)
 
 ## Output
