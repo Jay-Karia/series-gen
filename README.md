@@ -4,7 +4,7 @@ Generates a mathematical series
 
 ## Question
 
-![Question](./public/question.jpeg)
+![Question](./question.jpeg)
 
 Run on StackBlitz: [https://stackblitz.com/~/github.com/Jay-Karia/series-gen](https://stackblitz.com/~/github.com/Jay-Karia/series-gen)
 
@@ -12,9 +12,9 @@ Run on StackBlitz: [https://stackblitz.com/~/github.com/Jay-Karia/series-gen](ht
 
 First 50 elements of the series
 
-![Output](./public/first50.png)
+![Output](./results/first50.png)
 
-View more results [here](./public/)
+View more results [here](./results/)
 
 ### Development
 
