@@ -4,9 +4,15 @@ Generates a mathematical series
 
 ## Question
 
-![Question](./question.jpeg)
+![Question](./public/question.jpeg)
 
 Run on StackBlitz: [https://stackblitz.com/~/github.com/Jay-Karia/series-gen](https://stackblitz.com/~/github.com/Jay-Karia/series-gen)
+
+## Output
+
+The beautified output for first 10 terms of the series
+
+![Output](./public/output.jpeg)
 
 ### Development
 
