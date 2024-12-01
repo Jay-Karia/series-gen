@@ -1,5 +1,5 @@
 import {FractionType} from "../types/index";
 
-export function greaterThanOne(fractions: FractionType): boolean {
-  return fractions.one > 1 || fractions.two > 1 || fractions.three > 1
+export function greaterThanOne(fractions: FractionType[], fractionIndex: number): boolean {
+  return fractions[fractionIndex].numerator >= fractions[fractionIndex].denominator || fractions[fractionIndex].numerator === Infinity || fractions[fractionIndex].denominator === Infinity
 }

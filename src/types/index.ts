@@ -6,9 +6,8 @@ interface NumType {
 }
 
 interface FractionType {
-  one: number,
-  two: number,
-  three: number,
+  numerator: number,
+  denominator: number
 }
 
 export {type NumType, FractionType}
