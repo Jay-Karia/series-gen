@@ -10,9 +10,9 @@ Run on StackBlitz: [https://stackblitz.com/~/github.com/Jay-Karia/series-gen](ht
 
 ## Output
 
-The beautified output for first 10 terms of the series
+The output for first 50 elements of the series
 
-![Output](./public/output.jpeg)
+![Output](./public/first50.png)
 
 ### Development
 
