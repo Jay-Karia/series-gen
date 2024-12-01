@@ -4,27 +4,29 @@ interface PrintFractionProps {
   beautify?: boolean
 }
 
-/**
- * The function to print the fractions
- * @param param0 The object containing the numerators, denominators, and whether to beautify the output
- */
 export function printFractions({ numerators, denominators, beautify}: PrintFractionProps) {
-  // Beautify the output
+  const totalFractions = numerators.length;
+  const indexWidth = totalFractions.toString().length;
+  const indexPadding = indexWidth + 2; // +2 for ". " after index
+
   if (beautify) {
     for (let i = 0; i < numerators.length; i++) {
-      const maxWidth = Math.max(numerators[i].toString().length, denominators[i].toString().length); // Maximum width of the line
+      const maxWidth = Math.max(numerators[i].toString().length, denominators[i].toString().length);
       const line = '─'.repeat(maxWidth);
+      const index = (i + 1).toString().padStart(indexWidth);
+      const padding = ' '.repeat(indexPadding);
       
-      console.log(`${numerators[i]}`);
-      console.log(`${line}`);
-      console.log(`${denominators[i]}`);
-      console.log('------------------------------');
+      console.log(`${index}. ${numerators[i]}`);
+      console.log(`${padding}${line}`);
+      console.log(`${padding}${denominators[i]}`);
+      console.log('─'.repeat(maxWidth + indexPadding + 2));
     }
     return;
   }
 
   // Normal output
   for (let i = 0; i < numerators.length; i++) {
-    console.log(`${numerators[i]} / ${denominators[i]}`);
+    const index = (i + 1).toString().padStart(indexWidth);
+    console.log(`${index}. ${numerators[i]} / ${denominators[i]}`);
   }
 }
