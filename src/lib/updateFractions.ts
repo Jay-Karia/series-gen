@@ -1,5 +1,5 @@
 import { FractionType, NumType } from "../types"
-import {truncateNumber} from "./truncateNumber"
+import { truncateNumber } from "./truncateNumber"
 
 interface UpdateFractionsProps {
   num: NumType
@@ -11,8 +11,8 @@ interface UpdateFractionsProps {
 export function updateFractions({ num, fractions, currentNumerator, currentDenominator }: UpdateFractionsProps) {
   num.a = truncateNumber(currentNumerator)
   num.b = truncateNumber(currentDenominator)
-  num.c = truncateNumber((num.a + num.b))
-  num.d = truncateNumber((2 * num.a + num.b))
+  num.c = truncateNumber(num.a + num.b)
+  num.d = truncateNumber(2 * num.a + num.b)
 
   fractions[0].numerator = num.a
   fractions[0].denominator = num.b

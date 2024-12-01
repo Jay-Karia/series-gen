@@ -1,4 +1,4 @@
-import {FractionType, NumType} from "../types";
+import { FractionType, NumType } from "../types"
 
 const INITIAL_NUM: NumType = {
   a: 1,
@@ -22,4 +22,4 @@ const INITIAL_FRACTIONS: FractionType[] = [
   }
 ]
 
-export {INITIAL_NUM, INITIAL_FRACTIONS}
+export { INITIAL_NUM, INITIAL_FRACTIONS }

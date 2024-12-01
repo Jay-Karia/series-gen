@@ -1,13 +1,13 @@
 interface NumType {
-  a: number,
-  b: number,
-  c: number,
-  d: number,
+  a: number
+  b: number
+  c: number
+  d: number
 }
 
 interface FractionType {
-  numerator: number,
+  numerator: number
   denominator: number
 }
 
-export {type NumType, FractionType}
+export { type NumType, FractionType }

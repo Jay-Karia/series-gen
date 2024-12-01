@@ -1,9 +1,9 @@
 export function truncateNumber(n: number) {
-  let truncated = n;
+  let truncated = n
 
-  if (n.toString().includes('e')) {
-    truncated = parseFloat(n.toExponential(1));
+  if (n.toString().includes("e")) {
+    truncated = parseFloat(n.toExponential(1))
   }
 
-  return truncated;
+  return truncated
 }
